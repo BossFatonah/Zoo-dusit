@@ -1,17 +1,19 @@
-import React from 'react';
-import './Navbar.css';
-
+import React from 'react'
+import './Navbar.css'
 function Navbar() {
     return (
-        
-            <nav className='nav-menu'>
-                <a href="#">หน้าหลัก</a>
-                <a href="#">ประเภทสัตว์</a>
-                <a href="#">เเผนที่</a>
-                <a href="#">About</a>
-            </nav>
-        
+        <div>
+            <header className='header'>
+                <nav className='navbar-menu'>
+                    <a href="#">หน้าหลัก</a>
+                    <a href="#">ประเภทสัตว์</a>
+                    <img className='logo' src="src/Componants/Assets/DusitLogo-removebg-preview.png" alt="logo" />
+                    <a href="#">เเผนที่</a>
+                    <a href="#">About</a>
+                </nav>
+            </header>
+        </div>
     )
 }
 
-export default Navbar;
+export default Navbar

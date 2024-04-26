@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Image from 'react-bootstrap/Image';
-import '../Styles/'
+
 
 
 
@@ -11,7 +11,7 @@ import '../Styles/'
 function Home() {
     return (
         <div>
-            <Header />
+            
                 
             
         </div>

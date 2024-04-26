@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { AiOutlineUser, AiFillUnlock } from "react-icons/ai";
-import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'; 
 
 function Login() {
@@ -10,7 +9,7 @@ function Login() {
   const navigate = useNavigate(); // เรียกใช้ useNavigate เพื่อเปลี่ยนเส้นทาง
   const handleLogin = () => {
     // ตรวจสอบข้อมูลล็อกอิน ในที่นี้ใช้ข้อมูลคงที่เป็น "admin" และ "password"
-    if (username === 'admin' && password === '1234') {
+    if (username === 'Boss@gmail.com' && password === '12345678') {
       setSuccessMessage('เข้าสู่ระบบสำเร็จ');
       navigate('/home'); // เปลี่ยนเส้นทางไปยังหน้า home
     } else {
@@ -21,8 +20,8 @@ function Login() {
   return (
     <div className='body'>
     <div className='wrapper'> 
-      <div className='logo'>
-          <img className='logo-image' src="src/Componants/Assets/DusitLogo-removebg-preview.png" alt="" />
+      <div className='LoginLogo'>
+          <img className='LoginLogo-image' src="src/Componants/Assets/DusitLogo-removebg-preview.png" alt="logo" />
       </div>
 
       <div className='input-box'>

@@ -1,10 +1,7 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Nav from 'react-bootstrap/Nav';
-import Image from 'react-bootstrap/Image';
-// import './style.css';
-import Header from './header/header';
 import Navbar from './Navbar/Navbar';
+
+
 
 
 
@@ -12,11 +9,7 @@ import Navbar from './Navbar/Navbar';
 function Home() {
     return (
         <div >
-            <Header />
-            <Navbar />
-           
-                
-            
+            <Navbar />   
         </div>
     );
 }
