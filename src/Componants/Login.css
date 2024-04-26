@@ -1,0 +1,171 @@
+.body{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('./Assets/bgZoo.jpg') no-repeat fixed;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+    
+
+.wrapper {
+    width: 420px;
+    background: transparent;
+    color: #fff;
+    border-radius: 10px;
+    padding: 100px 20px;
+    
+}
+
+/* .wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    
+} */
+
+.wrapper .input-box{
+    position: relative;
+    width: 85%;
+    height: 50px;
+    /* background: salmon; */
+    margin: 30px;
+    
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    
+    /* background: transparent; */
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 20px;
+    color: #000000;
+    padding: 20px 20px 20px 40px; 
+    
+    
+}
+
+.input-box input::placeholder{
+    color: #000000;
+    
+}
+
+.input-box .icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform:translateY(-50%) ;
+    font-size: 16px;
+    color: #000000;
+}
+
+.wrapper button {
+    width: 85%;
+    height: 51px;
+    background: #ABCE1A;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0,0 18px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    margin-left: 8%;
+   
+}
+
+.logo-image {
+    width: 100%; /* กำหนดความกว้างของรูปภาพ */
+    height: auto; /* ใช้ค่า auto เพื่อให้รูปภาพปรับความสูงให้สัดส่วนตามความกว้าง */
+    margin-bottom: 26px;
+  
+  }
+
+  .error-message {
+    color: red;
+  }
+  
+
+@media  screen and (max-width: 600px) {
+    .wrapper{
+        width: 400px;
+        height: 500px;
+    /* background: salmon; */
+    color: #fff;
+    border-radius: 5px;
+    padding: 50px 10px 50px 50px;
+    }
+
+    .wrapper .input-box{
+        position: relative;
+        width: 255px;
+        height: 30px;
+        /* background: seagreen ; */
+        margin: 15px;
+        
+    }
+
+    .input-box input {
+        width: 80%;
+        height: 30px;
+        
+        /* background: transparent; */
+        border: none;
+        outline: none;
+        border: 2px solid rgba(255, 255, 255, .2);
+        border-radius: 40px;
+        font-size: 10px;
+        color: #000000;
+        padding: 11px 10px 10px 20px; 
+        margin-left: 30px;
+        
+        
+    }
+
+    .input-box .icon {
+        position: absolute;
+        left: 39px;
+        top: 50%;
+        transform:translateY(-50%) ;
+        font-size: 8px;
+        color: #000000;
+        
+    }
+
+    .wrapper button {
+        width: 205px;
+        height: 30px;
+        background: #ABCE1A;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        box-shadow: 0,0 18px rgba(0, 0, 0, .1);
+        cursor: pointer;
+        font-size: 8px;
+        color: #333;
+        font-weight: 700;
+        margin-left: 44px;
+       
+    }
+
+    .logo-image {
+        width: 60%; /* กำหนดความกว้างของรูปภาพ */
+        height: auto; /* ใช้ค่า auto เพื่อให้รูปภาพปรับความสูงให้สัดส่วนตามความกว้าง */
+        margin-bottom: 13px;
+        margin-left: 45px;
+      
+      }
+
+      .error-message {
+        color: red;
+      }
+      
+    
+
+}

@@ -1,0 +1,23 @@
+body {
+  min-height: 100vh;
+  background: url(src/Componants/Assets/Bg-App.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: seagreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.navMenu a{
+  font-size: 18px;
+  color: aliceblue;
+}
