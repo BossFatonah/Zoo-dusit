@@ -3,9 +3,12 @@ import Navbar from '../Componants/Navbar/Navbar'
 
 function Map() {
   return (
-    <div>
+    <>
       <Navbar />
-    </div>
+      <div>
+        <h1>Map</h1>
+      </div>
+    </>
   )
 }
 

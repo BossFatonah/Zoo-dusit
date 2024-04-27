@@ -3,9 +3,12 @@ import Navbar from '../Componants/Navbar/Navbar'
 
 function About() {
   return (
-    <div>
+    <>
       <Navbar />
-    </div>
+      <div>
+        <h1>About</h1>
+      </div>
+    </>
   )
 }
 

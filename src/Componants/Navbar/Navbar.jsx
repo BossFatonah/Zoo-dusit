@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 import { GoHome } from "react-icons/go";
 import { CiMap } from "react-icons/ci";
@@ -15,26 +15,27 @@ function Navbar() {
     const toggleDropdown = () => {
         setShowDropdown(!showDropdown);
         
+
     };
 
     return (
         <div>
             <header className='header'>
                 <nav className='navbar-menu'>
-                    <a href="#"><GoHome />หน้าหลัก</a>
+                    <Link to="/home"><GoHome />หน้าหลัก</Link>
                     <div className="dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
-                        <a href="#" onClick={(e) => e.preventDefault()}><FaCat />ประเภทสัตว์</a>
+                        <Link to="#" onClick={(e) => e.preventDefault()}><FaCat />ประเภทสัตว์</Link>
                         {showDropdown && (
                             <div className="dropdown-content">
-                                <a href="#"><MdForest />สัตว์บก</a>
-                                <a href="#"><GiLibertyWing />สัตว์ปีก</a>
-                                <a href="#"><FaWater />สัตว์น้ำ</a>
+                                <Link to="/landAnimals"><MdForest />สัตว์บก</Link>
+                                <Link to="/poultry"><GiLibertyWing />สัตว์ปีก</Link>
+                                <Link to="/aquaticAnimals"><FaWater />สัตว์น้ำ</Link>
                             </div>
                         )}
                     </div>
                     <img className='logo' src="src/Componants/Assets/DusitLogo-removebg-preview.png" alt="logo" />
-                    <a href="#"><CiMap />เเผนที่</a>
-                    <a href="#" ><AiOutlineInfoCircle />About</a>
+                    <Link to="/map"><CiMap />เเผนที่</Link>
+                    <Link to="/about" ><AiOutlineInfoCircle />About</Link>
                 </nav>
             </header>
         </div>

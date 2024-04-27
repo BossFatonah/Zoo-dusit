@@ -3,9 +3,12 @@ import Navbar from '../Componants/Navbar/Navbar'
 
 function AquaticAnimals() {
   return (
-    <div>
-      <Navbar />
-    </div>
+    <>
+        <Navbar />
+      <div>
+        <h1>AquaticAnimals</h1>
+      </div>
+    </>
   )
 }
 

@@ -44,9 +44,9 @@
 
 /* เพิ่มส่วนของ dropdown */
 .dropdown {
-  position: relative;
+  /* position: relative;
   display: inline-block;
-  display: flex;
+  display: flex; */
   
   
 }
