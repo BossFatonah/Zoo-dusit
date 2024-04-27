@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Login from './Componants/Login';
 import './Componants/Login.css';
 import Home from './Componants/Home';
+import LandAnimals from './Pages/LandAnimals';
 
 
 
@@ -16,7 +17,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/header" element={<header />} />
+        <Route path="/landAnimals" element={<LandAnimals />} />
+        
       </Routes>
     </Router>
   );
