@@ -1,12 +1,15 @@
-import React from 'react'
-import Navbar from '../Componants/Navbar/Navbar'
+import React from 'react';
+import Navbar from '../Componants/Navbar/Navbar';
+import Content from '../Componants/Content/Content';
+import '../index.css';
 
 function LandAnimals() {
   return (
     <>
       <Navbar />
       <div>
-        <h1>LandAnimals</h1>
+        <Content />
+        <h4>LandAnimals</h4>
       </div>
     </>
   )

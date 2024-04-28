@@ -1,0 +1,37 @@
+.box {
+    display: flex;
+    flex-direction: column; /* จัดให้เนื้อหาอยู่ในคอลัมน์ */
+    justify-content: space-between; /* จัดให้เนื้อหากระจายในตำแหน่งสูงสุดและต่ำสุดของคอลัมน์ */
+    align-items: flex-start; /* จัดให้เนื้อหาชิดซ้าย */
+    margin-top: 80px;
+    width: 85%;
+    padding: 20px;
+    padding-top: 0px;
+    margin-left: 28px;
+    border-radius: 10px;
+    background-color: #ffffffd3;
+}
+
+.con-top,
+.con-bottom {
+    width: 100%; /* ให้เนื้อหาเต็มความกว้างของ box */
+}
+
+.box img {
+    width: 51%;
+    height: auto;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+.name-right{
+    font-size: 25px;
+    
+}
+
+.con-top h2{
+    text-align: right;
+    background-color: aquamarine;
+}
+
+

@@ -11,7 +11,7 @@ body {
   background: url(src/Componants/Assets/Bg-App.jpg) no-repeat;
   background-size: cover;
   background-position: center;
- 
+  background-attachment: fixed;
 }
  
 
